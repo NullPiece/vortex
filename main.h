@@ -2,9 +2,12 @@
 #define MAIN_H
 
 #include<gtk-3.0/gtk/gtk.h>
-#include <gtk-3.0/gtk/gtktypes.h>
-#include <glib-2.0/glib/gtypes.h>
-#include <gtk-3.0/gtk/gtkapplication.h>
+#include<gtk-3.0/gtk/gtktypes.h>
+#include<glib-2.0/glib/gtypes.h>
+#include<gtk-3.0/gtk/gtkapplication.h>
+#include<gtk-3.0/gtk/gtkfixed.h>
+#include<gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h>
+#include<gtk-3.0/gtk/gtkdialog.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<windows.h>
@@ -20,5 +23,7 @@
 #define HALF_PI (PI / 2)
 #define FULL_ARC (PI * 2)
 #define OFFSET (PI / 50)
+
+
 
 #endif // MAIN_H
